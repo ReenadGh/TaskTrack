@@ -11,5 +11,13 @@ A simple application to add tasks and track whether they have been completed or 
 </p>
 
 I used :
-- Core Data to save and retrieve data when closing the application and opening it again
-- 'Charts'Cocopods to display the data on the chart
+- Core Data to save and retrieve data when close the application and open it again
+- 'Charts'Cocopods to display the data on chart
+
+
+
+
+##Core Data 
+
+   let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    let saveContext = (UIApplication.shared.delegate as! AppDelegate).saveContext
