@@ -20,7 +20,7 @@ I used :
 ## Core Data 
 
 
-<img src="https://user-images.githubusercontent.com/66906961/150977894-9fbdca28-a194-495b-92e9-6b15c2609c1f.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/66906961/150977894-9fbdca28-a194-495b-92e9-6b15c2609c1f.png" width="200" height="100">
 
 
 ```
@@ -41,3 +41,11 @@ import CoreData
 ```
     let saveContext = (UIApplication.shared.delegate as! AppDelegate).saveContext
 ```
+
+
+
+### Create Objects
+Here, I created my Entity and called it Task, and it has some features : 
+
+<img width="881" alt="Screen Shot 1443-06-22 at 3 42 03 PM" src="https://user-images.githubusercontent.com/66906961/150979403-3c7b9712-891d-488a-b0be-1c8190b38f47.png">
+
