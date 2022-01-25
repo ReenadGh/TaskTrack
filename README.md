@@ -11,5 +11,5 @@ A simple application to add tasks and track whether they have been completed or 
 </p>
 
 I used :
-_Core Data to save and retrieve data when closing the application and opening it again
-_'Charts'Cocopods to display the data on the chart
+- Core Data to save and retrieve data when closing the application and opening it again
+- 'Charts'Cocopods to display the data on the chart
