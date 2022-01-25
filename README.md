@@ -71,7 +71,7 @@ Here, I created my Entity and called it Task, and it has some features :
         tableView.reloadData()
 
     }
-    ```
+```
 
 ### add new Object to our entity 
  ```
