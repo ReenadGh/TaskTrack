@@ -49,3 +49,45 @@ Here, I created my Entity and called it Task, and it has some features :
 
 <img width="881" alt="Screen Shot 1443-06-22 at 3 42 03 PM" src="https://user-images.githubusercontent.com/66906961/150979403-3c7b9712-891d-488a-b0be-1c8190b38f47.png">
 
+
+### how to fetch it ? 
+
+```
+    func fetchData(){
+      
+        // fetch our Entity task
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Task")
+                do {
+                    
+                    let results = try context.fetch(fetchRequest)
+                    // add the result as an array of this entity
+                     TaskList = results as! [Task]
+
+                } catch {
+                    print("\(error)")
+                }
+        
+        //update our Tasks Table View
+        tableView.reloadData()
+
+    }
+    ```
+
+### add new Object to our entity 
+ ```
+     func addNewTask(title : String , dec : String , date :Date)
+    {
+        
+        //create new object
+        let newTask = Task(context: self.context)
+        // set its value
+        newTask.title = title
+        newTask.desc = dec
+        newTask.date = date
+        newTask.status = "unCompleted"
+        // save it to conext
+        saveContext()
+
+    }
+
+ ```
