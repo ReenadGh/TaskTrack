@@ -20,7 +20,7 @@ I used :
 ## Core Data 
 
 
-<img src="https://user-images.githubusercontent.com/66906961/150977894-9fbdca28-a194-495b-92e9-6b15c2609c1f.png" width="200" height="100">
+<img src="https://user-images.githubusercontent.com/66906961/150977894-9fbdca28-a194-495b-92e9-6b15c2609c1f.png" width="400" height="100">
 
 
 ```
