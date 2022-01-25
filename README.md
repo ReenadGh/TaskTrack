@@ -91,3 +91,23 @@ Here, I created my Entity and called it Task, and it has some features :
     }
 
  ```
+ 
+ ### delete Object in our entity 
+  ```
+     func deleteTask(removedTask : Task){
+        context.delete(removedTask)
+        saveContext()
+
+        
+    }
+  ```
+  ### Update Object in our entity  
+  
+  ```
+     func changeStatusToCompleted(editedTask : Task){
+    
+        editedTask.status = "Completed"
+        saveContext()
+
+    }
+  ```
