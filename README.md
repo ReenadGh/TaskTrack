@@ -19,5 +19,7 @@ I used :
 
 ##Core Data 
 
+```
    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     let saveContext = (UIApplication.shared.delegate as! AppDelegate).saveContext
+```
