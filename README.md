@@ -17,9 +17,27 @@ I used :
 
 
 
-##Core Data 
+## Core Data 
+
+
+<img src="https://user-images.githubusercontent.com/66906961/150977894-9fbdca28-a194-495b-92e9-6b15c2609c1f.png" width="100" height="100">
+
+
+```
+import CoreData
+
+```
+
+
+- start with declaring the variable as 'context' 
+- Our managed object context manages the changes that have been made to the objects 
 
 ```
    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+  ```
+  
+ - Whether we are creating, updating, or deleting records, in order for those changes to persist we must call save on the managed object context, I declare it as a reference to that method
+   
+```
     let saveContext = (UIApplication.shared.delegate as! AppDelegate).saveContext
 ```
